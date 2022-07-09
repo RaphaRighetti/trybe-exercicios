@@ -2,6 +2,6 @@
 
 O objetivo dos exercícios desse dia foi colocar em prática o que aprendemos sobre github!
 
-Tivemos que criar nossos repositórios, e pela primeira vez subir no github :casimiro-dance:
+Tivemos que criar nossos repositórios, e pela primeira vez subir no github :skateboard:
 
 Exercicío inicial que já me deixa muito entusiasmado com a jornada de me transformar em um DEV Jr. :rocket:
