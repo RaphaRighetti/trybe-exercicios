@@ -122,7 +122,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 16-2: _React com Redux - Parte 1_
 - [ ] 16-3: _React com Redux - PrÃ¡tica_
 - [ ] 16-4: _React com Redux - Parte 2_
-- [ ] 16-5: _Testes sÃ­ncronos com React-Redux_
+- [ ] 16-5: _Testes síncronos com React-Redux_
 - [ ] 16-6: _[Projeto - Tabela com filtros de dados]()_
 
 ##### Bloco 17: Projeto React
@@ -223,7 +223,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 32-1: _Arquitetura - Princípios SOLID_
 - [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
 - [ ] 32-3: _Arquitetura de Software - DDD_
-- [ ] 32-4: _Boas prÃ¡ticas na escrita de testes_
+- [ ] 32-4: _Boas práticas na escrita de testes_
 - [ ] 32-3: _[Projeto - API de Blogs]()_
 
 ##### Bloco 33: Sockets
