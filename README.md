@@ -4,7 +4,7 @@ Este repositório contem todas as atividades de aprendizagem desenvolvidas por _
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa é paga quando conseguir um bom trabalho."_
 
-O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introduÃ§Ã£o ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
 
@@ -21,7 +21,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 3: Introdução - HTML & CSS
 
-- [ ] 3-1: _HTML & CSS - Estruturas de pÃ¡gina_
+- [ ] 3-1: _HTML & CSS - Estruturas de página_
 - [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML Semântico_
@@ -120,7 +120,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 16-1: _Introdução ao Redux_
 - [ ] 16-2: _React com Redux - Parte 1_
-- [ ] 16-3: _React com Redux - PrÃ¡tica_
+- [ ] 16-3: _React com Redux - Prática_
 - [ ] 16-4: _React com Redux - Parte 2_
 - [ ] 16-5: _Testes síncronos com React-Redux_
 - [ ] 16-6: _[Projeto - Tabela com filtros de dados]()_
@@ -146,7 +146,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 20-1: _Banco de dados SQL_
 - [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma especÃ­fica_
+- [ ] 20-3: _Filtrando dados de forma especí­fica_
 - [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
 
@@ -186,7 +186,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 26: Intro - NodeJS
 
 - [ ] 26-1: _NodeJS - Introdução_
-- [ ] 26-2: _NodeJS - Fluxo AssÃ­ncrono_
+- [ ] 26-2: _NodeJS - Fluxo Assíncrono_
 - [ ] 26-3: _NodeJS - Arquitetura_
 - [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
 
@@ -198,7 +198,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 28: NodeJS
 
-- [ ] 28-1: _Arquitetura de Software - Camada de ServiÃ§o_
+- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
 - [ ] 28-2: _Arquitetura web - Rest e Restful_
 - [ ] 28-3: _[Projeto - Store Manager]()_
 
@@ -208,7 +208,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
 - [ ] 29-3: _[Projeto - Cookmaster V2]()_
 
-##### Bloco 30: IntroduÃ§Ã£o - Deploy
+##### Bloco 30: Introdução - Deploy
 
 - [ ] 30-1: _Infraestrutura - Deploy com Heroku_
 - [ ] 30-2: _Deploy - Gerenciadores de Processos_
