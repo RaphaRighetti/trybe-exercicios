@@ -1,0 +1,61 @@
+body {font-family: 'Montserrat', sans-serif;}
+
+a:visited {
+    color:#0000ff;
+}
+a:hover {
+    color:#ff00c8;
+}
+
+.linkspequenos
+{
+font-size:10px;
+}
+
+.textomedio
+{
+    font-size:22px
+}
+
+.bebasnenue {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.ex3-2 {
+    font-size: 65px;
+    color: orange;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+}
+.fundo3-2 {
+    background-color:rgb(27, 12, 63);
+    color:chartreuse;
+    font-weight: 600;
+}
+
+#amarelo {
+    background-color:yellow;
+    font-size: medium;
+line-height: 30px;
+color:black;
+}
+#vermelho {
+    background-color:red;
+    font-size: medium;
+    line-height: 30px;
+    color:black;
+}
+#marrom {
+    background-color:rgb(184, 66, 66);
+    font-size: medium;
+    line-height: 30px;
+    color:black;
+} 
+#paragrafo1 {
+font-weight: 900;
+font-size: 17px;
+padding-bottom: 3em;
+}   
