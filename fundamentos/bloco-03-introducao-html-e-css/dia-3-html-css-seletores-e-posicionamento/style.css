@@ -1,15 +1,62 @@
-h1, p {
-    text-align: center;
+ /* div:nth-of-type(even){
+    background-color: chartreuse;
+ }
+
+ div:nth-of-type(odd){
+    background-color: rgb(255, 0, 128);
+ }  */
+ 
+ div:hover {
+  border: 5px solid black;
+ }
+
+div {
+    background-color: midnightblue; 
 }
 
-li:hover {
-    background-color: deeppink;
+div:first-of-type {
+    background-color: red;
 }
 
-li:active {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+div:nth-of-type(2) {
+    background-color:indigo ;
 }
 
-ul, ol {
-    list-style: none;
+div:nth-of-type(3) {
+    background-color:yellow ;
+    height: 5em;
+    padding: 0px;
+    margin: 0px;
 }
+
+div:last-of-type {
+    background-color:deepskyblue;
+} 
+
+div:first-of-type h3{
+   background-color:green ;
+   color:yellow
+}
+
+div:nth-of-type(2) h3 {
+    color:lime ;
+}
+
+div:nth-of-type(3) h3 {
+    color:navy ;
+}
+
+
+div:nth-of-type(4) h3 {
+    color:orange ;
+}
+
+div:last-of-type h3{
+    background-color:cyan;
+    color:magenta
+ }
+
+ div:nth-of-type(odd) h3 {
+    font-style: italic;
+
+ }
