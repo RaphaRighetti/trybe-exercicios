@@ -1,53 +1,124 @@
-/* h1 {
-    text-align: center;
-  }  */
+body {
+    margin: 0;
+}
 
-  .first {
-    background-color: rgb(235, 200, 84);
-    font-size: 20px;
-    height: 50px;
-    text-align: center;
-    width: 200px;
-    display: inline-block;
+
+header {
     
-  }
-
-  .second {
-    background-color: rgb(219, 219, 219);
-    font-size: 20px;
-    height: 50px;
-    text-align: center;
-    width: 300px;
-   display: inline-block;
-  }
-
-  .third {
-    background-color: rgb(170, 142, 106);
-    font-size: 20px;
-    height: 50px;
-    text-align: center;
-    width: 300px;
-    display: inline-block;
-  }
-
-   .inlinelist li {
-display: inline-block;
-  } 
-
-  .inlinelist {
-    padding: 0px;
-  }
-
-  .main {
- align-content: center;
- align-items: center;
- text-align: center;
- width: 700px;
-justify-content: center;
-margin:0px;
-display: inline-block;
-padding: 0px;
+    background-color: midnightblue;
+    margin: 0;
+    position: fixed;
+    color: white;
+    font-weight: 900;
+    width: 100%;
+    height: 80px;
+    align-items:center;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 1px; 
 }
-.ranking {
-    padding: 0px;
+
+main {
+    display: flex;
 }
+
+aside {
+
+    /* background: linear-gradient(rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.900)), url(images/fundo-do-mar.jpg) ; */
+
+    background: linear-gradient(rgba(25, 25, 112, 0.200), rgba(25, 25, 112, 0.900)), url(images/fundo-do-mar.jpg) ;
+
+    background-size: cover;
+    background-position:left;
+    
+    width: 15%;
+    height: 500px;
+    position: fixed;
+    margin-left: 83%;
+    display: flex;
+   align-items:center;
+    margin-top: 120px;
+    line-height: 40px;
+    }
+
+.mainsection {
+
+    width: 70%;
+    margin-top: 100px;
+    margin-left:20px;
+    font-size: large;
+    color: rgb(63, 63, 63);
+    line-height: 1.3em;
+}
+
+.header {
+    margin-left: 25px;
+    vertical-align:middle;
+    font-size:30px ;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+     font-weight: 600;
+     
+    
+}
+
+ul {
+    list-style-type:none;
+    margin:0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+a, a:visited {
+    font-size: large;
+    color:white;
+    text-decoration: none;
+}
+
+.subtitulo {
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+section {
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 250px;
+    float: right;
+    margin-left: 100px;
+}
+
+.imgvertical {
+margin-bottom: 100px;
+}
+
+footer {
+    margin-top: 100px;
+    color:black;
+    font-size: medium;
+    text-align: center;
+}
+.linkspag, .linkspag:visited {
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.videodiv {
+    margin-top: 30px;
+    
+}
+  
