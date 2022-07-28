@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p class="paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      document.querySelector("#subtitle").style.backgroundColor = "hotpink";
+      document.querySelector("#subtitle").style.color = "midnightblue";
+      document.querySelector("#page-title").innerHTML = 'Clube da <em>luta</em>';
+      document.querySelectorAll(".paragraph")[0].style.fontSize = "32px";
+      document.querySelectorAll("h4")[0].style.backgroundColor = "lime";
+      document.querySelectorAll("h4")[0].style.color = "indigo";
+      // document.getElementById("second-paragraph").style.backgroundColor = "midnightblue";
+      // document.getElementById("second-paragraph").style.color = "hotpink";
+      // document.getElementById("second-paragraph").style.padding = "10px";
+      // document.getElementById("second-paragraph").style.fontWeight = "500";
+      // const paragraph = document.getElementById("paragraph");
+      // paragraph.style.color = "red";
+    </script>
+  </body>
+</html>
