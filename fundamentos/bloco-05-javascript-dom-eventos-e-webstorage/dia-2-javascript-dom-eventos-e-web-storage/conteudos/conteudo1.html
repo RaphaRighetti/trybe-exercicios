@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+  <script>
+    const ondeVcEsta = document.getElementById('elementoOndeVoceEsta');
+    console.log(ondeVcEsta);
+    ondeVcEsta.parentNode.style.color = 'red';
+    ondeVcEsta.firstElementChild.innerHTML = '<h3>Teste parentesco</h3>';
+    console.log(ondeVcEsta.parentNode.firstElementChild);
+    console.log(ondeVcEsta.previousElementSibling);
+    console.log(ondeVcEsta.nextSibling);
+    console.log(ondeVcEsta.nextElementSibling);
+    console.log(ondeVcEsta.parentNode.lastElementChild.previousElementSibling);
+    let novoParagrafo = document.createElement('p');
+    novoParagrafo.innerHTML = 'salve, salve família';  
+    novoParagrafo.id = 'novoParagrafo';
+    ondeVcEsta.parentElement.appendChild(novoParagrafo);
+    let newDiv = document.createElement('div');
+    newDiv.innerHTML = 'Tamo J family, olha eu aqui';
+    let newDiv2 = document.createElement('div');
+    newDiv2.innerHTML = 'Tamo J family, olha eu aqui';
+    ondeVcEsta.appendChild(newDiv);
+    ondeVcEsta.firstElementChild.appendChild(newDiv2);
+    let miniTitle = document.createElement('h5');
+    miniTitle.innerHTML = 'ta ligadooooo irmãooooo';
+    ondeVcEsta.nextElementSibling.appendChild(miniTitle);
+    let dentroPaiDoPai = document.querySelectorAll('#paiDoPai *');
+    console.log(dentroPaiDoPai);
+    const paiDoPai = document.getElementById('paiDoPai');
+    for (let i = 0; i < dentroPaiDoPai.length; i += 1) {
+      if (!dentroPaiDoPai[i].id.includes('pai') && !dentroPaiDoPai[i].id.includes('elementoOndeVoceEsta') && !dentroPaiDoPai[i].id.includes('primeiroFilhoDoFilho') && dentroPaiDoPai[i].parentElement.id !== 'primeiroFilhoDoFilho') {
+      dentroPaiDoPai[i].parentElement.removeChild(dentroPaiDoPai[i]);
+      }
+    }
+  </script>
+</body>
+</html>
+

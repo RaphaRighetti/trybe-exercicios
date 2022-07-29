@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // COLOQUE SEU CÓDIGO AQUI
+      //ex1
+      let adcH1 = document.createElement('h1');
+      adcH1.innerHTML = 'Exercício 5.2 - JavaScript DOM';
+      document.getElementsByTagName('body')[0].appendChild(adcH1);
+      //ex2
+      let adcMain = document.createElement('main');
+      adcMain.className = 'main-content';
+      document.getElementsByTagName('body')[0].appendChild(adcMain);
+      //ex3
+      let adcSec = document.createElement('section');
+      adcSec.className = 'center-content';
+      adcMain.appendChild(adcSec);
+      //ex4
+      let adcParagraph = document.createElement('p');
+      adcParagraph.innerHTML = 'Obrigado meu deus! É o melhor do mundo pai.'
+      adcSec.appendChild(adcParagraph);
+      //ex5
+      let adcLeftSec = document.createElement('section');
+      adcLeftSec.className = 'left-content';
+      adcMain.appendChild(adcLeftSec);
+      //ex6
+      let adcRightSec = document.createElement('section');
+      adcRightSec.className = 'right-content';
+      adcMain.appendChild(adcRightSec);
+      //ex7
+      let adcImg = document.createElement('img');
+      adcImg.src = 'https://picsum.photos/200';
+      adcImg.className = 'small-image';
+      adcLeftSec.appendChild(adcImg);
+      //ex8
+      let arrayLista = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      let adcNaoOrdenada = document.createElement('ul');
+
+      adcRightSec.appendChild(adcNaoOrdenada);
+
+      function adcNaLista (arrayItens, ondeEntra) {
+        for (i = 0; i < arrayItens.length; i += 1) {
+          let adcListItem = document.createElement('li');
+          adcListItem.innerHTML = arrayItens[i];
+          ondeEntra.appendChild(adcListItem);
+        }
+      }
+
+      adcNaLista(arrayLista, adcNaoOrdenada);
+      //ex9
+      function adcTag(tagAdc, ondeEntra) {
+        let tagNova = document.createElement(tagAdc);
+        ondeEntra.appendChild(tagNova);
+        }
+
+        //dps entender o pq n funciona
+      // function repeteFunc(vezes, func) {
+      //   for (let i = 0; i < vezes; i += 1) {
+      //   func;
+      //   }
+      // }
+      // repeteFunc(3, adcTag('h3', adcMain));
+
+      for (let i = 0; i < 3; i += 1) {
+        adcTag('h3', adcMain);
+      }
+      // parte2
+      // ex1
+      adcH1.className = 'title';
+      //ex2
+      let mainH3 = document.querySelectorAll('main h3');
+      console.log(mainH3);
+      for (let i = 0; i < mainH3.length; i+= 1) {
+        mainH3[i].className = 'description';
+        mainH3[i].innerHTML = 'teste teste teste teste teste teste teste teste';
+      }
+      //ex3
+      adcMain.removeChild(adcLeftSec);
+      //ex4
+      adcRightSec.style.marginRight = 'auto';
+      //ex5
+      adcSec.parentElement.style.backgroundColor = 'green';
+      //ex6
+      for (let i = 0; i < 2; i += 1) {
+        adcNaoOrdenada.lastChild.remove();
+      }
+    </script>
+  </body>
+</html>
