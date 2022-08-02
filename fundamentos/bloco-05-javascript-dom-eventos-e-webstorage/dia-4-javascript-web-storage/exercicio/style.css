@@ -1,0 +1,23 @@
+* {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+main {
+  width: 80%;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+input {
+  max-width: 30%;
+  margin-top: 10px;
+}
+
+main h1 {
+  font-size: 2em;
+}
+
+main h2 {
+  font-size: 1.5em;
+}
