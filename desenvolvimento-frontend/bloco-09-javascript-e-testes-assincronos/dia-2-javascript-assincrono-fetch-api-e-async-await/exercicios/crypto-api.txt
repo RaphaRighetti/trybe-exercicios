@@ -1,0 +1,5 @@
+Link Pull Request
+
+https://github.com/tryber/sd-t25-a-exercise-javascript-async/pull/14
+
+arquivos index.html e script.js, são referentes a api de conversão de moedas.
